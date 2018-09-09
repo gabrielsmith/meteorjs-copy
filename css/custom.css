@@ -8,6 +8,16 @@ img {
 
 a {
     color: #de4f4f;
+    text-transform: uppercase;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+.container-fluid {
+    padding: 0px;
 }
 
 #navbar-row {
@@ -84,7 +94,45 @@ a {
     margin-top: 10px;
 }
 
-.navbar-toggler {
+#banner-row {
+    background-image: url("../assets/banner.jpg");
+    background-size: cover;
+    width: 100%;
+    height: 500px;
+    margin: 0px 0px 0px 0px;
+}
 
+.banner-content {
+    margin: auto;
+    width: 50%;
+    text-align: center;
+    color: #fff;
+}
+
+.banner-content .row {
+    margin: auto;
+    width: 50%;
+}
+
+.banner-content h3 {
+    font-size: 48px;
+    margin-bottom: 15px;
+}
+
+.banner-btn {
+    margin: 25px auto;
+}
+
+#get-started {
+    text-transform: uppercase;
+    font-weight: 500;
+    background-color: #de4f4f;
+    padding: 15px 50px;
+    color: #ffffff;
+}
+
+#get-started:hover {
+    text-decoration: none;
+    background-color: #a83636;
 }
 
