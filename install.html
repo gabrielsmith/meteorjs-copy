@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Copy of MeteorJS's website">
+    <meta name="author" content="Gabriel Smith">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Install Meteor.js</title>
+
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/custom.css">
+</head>
+<body>
+    <div class="container-fluid" id="content-wrapper">
+
+        <div class="container-fluid" id="container-header">
+            <div class="row fixed-top" id="navbar-row">
+                <div class="logo"><a href="#"><img id="company-logo" src="assets/logo-diff.svg" alt="Meteor company logo"></a></div>
+                <div id="primary-menu">
+                    <nav class="navbar navbar-dark navbar-expand-lg navbar-fixed-top">
+                        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarContent" aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+
+                        <div class="collapse navbar-collapse" id="navbarContent">
+                            <ul class="navbar-nav mr-auto">
+                                <li class="nav-item dropdown">
+                                    <a href="#" class="nav-link dropdown-toggle" id="developers" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                        <span>Developers</span>
+                                    </a>
+
+                                    <div class="dropdown-menu" aria-labelledby="developers">
+                                        <a href="#" class="dropdown-item">Install</a>
+                                        <a href="#" class="dropdown-item">Tutorials</a>
+                                        <a href="#" class="dropdown-item">Guide</a>
+                                        <a href="#" class="dropdown-item">Documentation</a>
+                                        <a href="#" class="dropdown-item">Forums</a>
+                                        <a href="#" class="dropdown-item">Meetups</a>
+                                    </div>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="#" class="nav-link" id="showcase">
+                                        <span>Showcase</span>
+                                    </a>
+                                </li>
+                                <li class="nav-item dropdown">
+                                    <a href="#" class="nav-link dropdown-toggle" id="solutions" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                        <span>Solutions</span>
+                                    </a>
+
+                                    <div class="dropdown-menu" aria-labelledby="solutions">
+                                        <a href="#" class="dropdown-item">Meteor Hosting</a>
+                                        <a href="#" class="dropdown-item">Developer Support</a>
+                                        <a href="#" class="dropdown-item">Pricing</a>
+                                        <a href="#" class="dropdown-item">Official Partners</a>
+                                        <a href="#" class="dropdown-item">Submit RFP</a>
+                                        <a href="#" class="dropdown-item">Become a Partner</a>
+                                    </div>
+                                </li>
+                                <li class="nav-item dropdown">
+                                    <a href="#" class="nav-link dropdown-toggle" id="company" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                        <span>Company</span>
+                                    </a>
+
+                                    <div class="dropdown-menu" aria-labelledby="company">
+                                        <a href="#" class="dropdown-item">Blog</a>
+                                        <a href="#" class="dropdown-item">Careers</a>
+                                        <a href="#" class="dropdown-item">Culture</a>
+                                        <a href="#" class="dropdown-item">Press</a>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </nav>
+                </div>
+
+                <div id="secondary-menu">
+                    <nav>
+                        <a href="#" id="login">Login</a>
+                        <a href="#" id="register">Register</a>
+                    </nav>
+                </div>
+
+            </div>
+            <div class="spacing-row"></div>
+            <div class="spacing-row"></div>
+        </div>
+
+        <div class="container-fluid" id="container-content">
+            <div class="centralized">
+                <span class="page-title">Install</span>
+                <div class="spacing-row"></div>
+                <div class="version">Current version: 1.7.0.3</div>
+                <a href="#" class="release-notes">View Release Notes</a>
+            </div>
+
+            <div class="horizontal-line"></div>
+
+            <div class="container" id="installation">
+                <div class="row">
+                    <div class="col" id="osx-linux">
+                        <h4 class="bold-title">OSX / Linux</h4>
+                        <div class="guide">
+                            OSX / LINUX Run the following command in your terminal to install the latest official Meteor release:
+                        </div>
+                        <div class="spacing-row"></div>
+                        <div class="centralized">
+                            <span class="command">curl https://install.meteor.com/ | sh</span>
+                        </div>
+                        <div class="spacing-row"></div>
+                        <div class="more-info">
+                            <ul>
+                                <li>For compatibility, Linux binaries are built with CentOS 6.4 i386/amd64.</li>
+                                <li>iOS development requires the latest Xcode.</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col" id="windows">
+                        <h4 class="bold-title">Windows</h4>
+                        <div class="guide">
+                            First install Chocolatey, then run this command using an Administrator command prompt:
+                        </div>
+                        <div class="spacing-row"></div>
+                        <div class="centralized">
+                            <span class="command">choco install meteor</span>
+                        </div>
+                        <div class="spacing-row"></div>
+                        <div class="more-info">
+                            <ul>
+                                <li>Meteor supports Windows 7/Windows Server 2008 R2 and up.</li>
+                                <li>The installer uses Chocolatey, which has its own requirements.</li>
+                                <li>Disabling antivirus (Windows Defender, etc.) will improve performance.</li>
+                                <li>iOS development is not supported.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="horizontal-line"></div>
+
+            <div class="container" id="whats-next">
+                <div class="container-title">
+                    <div class="centralized">
+                        <h3 style="font-weight: bolder">What's Next?</h3>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col">
+                        <div class="row">
+                            <div class="col" id="icon-install-tutorial"></div>
+                            <div class="col">
+                                <h6 class="upper">Tutorials</h6>
+                                <span>Build a simple app in minutes. Master advanced concepts and techniques</span>
+                                <br> <br>
+                                <a href="#" style="text-transform: none; font-size: 12px;">> Start now</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="row">
+                            <div class="col" id="icon-guide"></div>
+                            <div class="col">
+                                <h6 class="upper">Guide</h6>
+                                <span>Best practices for building production Meteor apps</span>
+                                <br> <br>
+                                <a href="#" style="text-transform: none; font-size: 12px;">> Read now</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="row">
+                            <div class="col" id="icon-install-document"></div>
+                            <div class="col">
+                                <h6 class="upper">Documentation</h6>
+                                <span>Reference documentation to discover everything Meteor has to offer</span>
+                                <br> <br>
+                                <a href="#" style="text-transform: none; font-size: 12px;">> Explore now</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        </div>
+
+        <div class="horizontal-line"></div>
+
+        <div class="container" id="container-footer">
+            <div class="row">
+                <div class="col">
+                    <div class="logo-meteor"></div>
+                    <span class="footer-text">© 2018 Meteor Development Group Inc.</span>
+                    <div class="space-smol"></div>
+                    <span class="footer-text">Open source downloads supported by <a style="color: #de4f4f;" href="#">KeyCDN</a> and <a style="color: #de4f4f;" href="#">MaxCDN</a></span>
+                </div>
+                <div class="col">
+                    <a href="#">Home</a>
+                    <div class="space-smol"></div>
+                    <a href="#">Github</a>
+                    <div class="space-smol"></div>
+                    <a href="#">Twitter</a>
+                    <div class="space-smol"></div>
+                    <a href="#">Youtube</a>
+                    <div class="space-smol"></div>
+                    <a href="#">Facebook</a>
+                </div>
+                <div class="col">
+                    <a href="#">Developers</a>
+                    <div class="space-smol"></div>
+                    <a href="#">Install</a>
+                    <div class="space-smol"></div>
+                    <a href="#">Tutorials</a>
+                    <div class="space-smol"></div>
+                    <a href="#">Guide</a>
+                    <div class="space-smol"></div>
+                    <a href="#">Documentation</a>
+                    <div class="space-smol"></div>
+                    <a href="#">Apps Showcase</a>
+                    <div class="space-smol"></div>
+                    <a href="#">Forums</a>
+                    <div class="space-smol"></div>
+                    <a href="#">Meetups</a>
+                    <div class="space-smol"></div>
+                    <a href="#">Meteor FAQ</a>
+                    <div class="space-smol"></div>
+                    <a href="#">Speaker Kit</a>
+                    <div class="space-smol"></div>
+                    <a href="#">Articles</a>
+                </div>
+                <div class="col">
+                    <a href="#">Solutions</a>
+                    <div class="space-smol"></div>
+                    <a href="#">Meteor Hosting</a>
+                    <div class="space-smol"></div>
+                    <a href="#">Official Partners</a>
+                    <div class="space-smol"></div>
+                    <a href="#">Become a Partner</a>
+                    <div class="space-smol"></div>
+                    <a href="#">Submit RFP</a>
+                    <div class="space-smol"></div>
+                    <a href="#">Galaxy FAQ</a>
+                    <div class="space-smol"></div>
+                    <a href="#">GraphQL</a>
+                    <div class="space-smol"></div>
+                    <a href="#">System Status</a>
+                </div>
+                <div class="col">
+                    <a href="#">Company</a>
+                    <div class="space-smol"></div>
+                    <a href="#">Blog</a>
+                    <div class="space-smol"></div>
+                    <a href="#">Careers</a>
+                    <div class="space-smol"></div>
+                    <a href="#">Culture</a>
+                    <div class="space-smol"></div>
+                    <a href="#">Press</a>
+                    <div class="space-smol"></div>
+                    <a href="#">Contact Us</a>
+                    <div class="space-smol"></div>
+                    <a href="#">Policies</a>
+                    <div class="space-smol"></div>
+                    <a href="#">Apollo GraphQL</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
