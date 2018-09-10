@@ -486,3 +486,30 @@ h1, h2, h3, h4, h5, h6 {
     background-position: right;
     background-repeat: no-repeat;
 }
+
+#rocket-chat {
+    background-image: url('../assets/logo-recketchat.png');
+    height: 50px;
+    width: 50px;
+    background-size: contain;
+    background-position: right;
+    background-repeat: no-repeat;
+}
+
+#wekan {
+    background-image: url('../assets/logo-wekan.png');
+    height: 50px;
+    width: 50px;
+    background-size: contain;
+    background-position: right;
+    background-repeat: no-repeat;
+}
+
+#telescope {
+    background-image: url('../assets/logo-telescope.png');
+    height: 50px;
+    width: 50px;
+    background-size: contain;
+    background-position: right;
+    background-repeat: no-repeat;
+}
