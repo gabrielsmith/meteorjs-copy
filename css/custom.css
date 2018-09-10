@@ -20,6 +20,15 @@ h1, h2, h3, h4, h5, h6 {
     padding: 0px;
 }
 
+.centralized {
+    text-align: center;
+    margin: auto;
+}
+
+#container-header {
+    margin-bottom: 30px;
+}
+
 #navbar-row {
     background-color: #2b2e39;
 }
@@ -136,3 +145,267 @@ h1, h2, h3, h4, h5, h6 {
     background-color: #a83636;
 }
 
+#integrates-with {
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+#integrates-with nav li {
+    display: inline-block;
+    width: 100px;
+    height: 50px;
+    background-position: 50%;
+    background-repeat: no-repeat;
+}
+
+#integrates-with nav #react {
+    background-image: url('../assets/icon-react.svg');
+}
+
+#integrates-with nav #vue {
+    background-image: url('../assets/icon-vue.svg');
+}
+
+#integrates-with nav #angular {
+    background-image: url('../assets/icon-angular.svg');
+}
+
+#integrates-with nav #mongo {
+    background-image: url('../assets/icon-mongo.svg');
+    width: 130px;
+}
+
+#integrates-with nav #graphql {
+    background-image: url('../assets/icon-graphql.svg');
+}
+
+#integrates-with nav #npm {
+    background-image: url('../assets/icon-npm.svg');
+    width: 90px;
+}
+
+#integrates-with nav #cordova {
+    background-image: url('../assets/icon-cordova.svg');
+    width: 150px;
+}
+
+#integrates-title {
+    margin-bottom: 15px;
+}
+
+.horizontal-line {
+    max-width: 1170px;
+    width: 100%;
+    display: block;
+    margin: 40px auto 30px;
+    border-top: 1px solid #d5d8df;
+}
+
+.container-title h3 {
+    margin-top: 15px;
+    font-size: 20px;
+    font-weight: lighter;
+}
+
+.container-title h3:after {
+    content: "";
+    width: 60px;
+    display: block;
+    margin: 15px auto 40px;
+    border-top: 2px solid #de4f4f;
+}
+
+.container-title-dark h3 {
+    margin-top: 15px;
+    font-size: 20px;
+    font-weight: lighter;
+    color: #ffffff;
+}
+
+.container-title-dark h3:after {
+    content: "";
+    width: 60px;
+    display: block;
+    margin: 15px auto 40px;
+    border-top: 2px solid #ffffff;
+}
+
+.icon-less {
+    background-image: url("../assets/nave.png");
+    height: 100px;
+    width: 120px;
+    margin-bottom: 15px;
+    background-repeat: no-repeat;
+}
+
+.icon-device {
+    background-image: url("../assets/computador.png");
+    height: 100px;
+    width: 110px;
+    margin-bottom: 15px;
+    background-repeat: no-repeat;
+}
+
+.icon-tech {
+    background-image: url("../assets/graph.png");
+    height: 100px;
+    width: 100px;
+    margin-bottom: 15px;
+    background-repeat: no-repeat;
+}
+
+.reason-title h6 {
+    text-transform: none;
+    font-weight: bolder;
+    font-size: 16px;
+    margin-bottom: 15px;
+}
+
+.reason-text {
+    font-size: 12px;
+    font-weight: normal;
+}
+
+#companies-using {
+    margin-bottom: 40px;
+}
+
+#companies-using nav li {
+    display: inline-block;
+    width: 100px;
+    height: 50px;
+    margin-left: 30px;
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.spacing-row {
+    height: 30px;
+}
+
+#companies-using nav #mazda {
+    background-image: url("../assets/icon-mazda.png");
+    width: 100px;
+}
+
+#companies-using nav #ikea {
+    background-image: url("../assets/icon-ikea.png");
+    width: 100px;
+}
+
+#companies-using nav #honeywell {
+    background-image: url("../assets/icon-honeywell.png");
+    width: 100px;
+}
+
+#companies-using nav #qualcomm {
+    background-image: url("../assets/icon-qualco.png");
+    width: 100px;
+}
+
+#companies-using nav #pga {
+    background-image: url("../assets/icon-tour.png");
+    width: 50px;
+}
+
+#built-with {
+    background-color: #222637;
+}
+
+#project-img {
+    background-image: url("../assets/mazda.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 300px;
+}
+
+#project-name {
+    color: #ffffff;
+    font-style: italic;
+    font-weight: 300;
+}
+
+#project-description {
+    color: #ffffff;
+    font-size: 16px;
+}
+
+#project-info a {
+    color: #de4f4f;
+    text-transform: lowercase;
+    font-size: 12px;
+}
+
+.transparent-btn {
+    padding: 15px 50px;
+    background-color: transparent;
+    color: #de4f4f;
+    border: 1px solid #de4f4f;
+}
+
+.transparent-btn:hover {
+    text-decoration: none;
+    background-color: #de4f4f;
+    color: #ffffff;
+}
+
+.service-description {
+    font-size: 14px;
+    margin-bottom: 15px;
+}
+
+#links a {
+    text-transform: none;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+#community {
+    background-color: #de4f4f;
+    color: #ffffff;
+    padding-bottom: 60px;
+}
+
+.big-number {
+    color: #ffffff;
+    font-size: 48px;
+    font-weight: lighter;
+}
+
+.upper {
+    text-transform: uppercase;
+}
+
+#community-data .upper {
+    font-size: 10px;
+    font-weight: bold;
+}
+
+#call-to-action span {
+    font-size: 18px;
+    font-weight: bold;
+    margin-right: 15px;
+}
+
+.space-smol {
+    height: 2px;
+}
+
+#container-footer .col a {
+    color: #b1b3be;
+    text-transform: none;
+    font-size: 12px;
+}
+
+.logo-meteor {
+    background-image: url("../assets/logo-black.svg");
+    width: 120px;
+    height: 30px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.footer-text {
+    font-size: 12px;
+}
